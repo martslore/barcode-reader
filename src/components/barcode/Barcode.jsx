@@ -15,7 +15,7 @@ const Barcode = ({ setData }) => {
         <div className="my-3">
           {lastRead
             ? "È stato letto il valore: " + lastRead
-            : "Ancora nessuna lettua effettuata al momento"}
+            : ""}
         </div>
 
         <Button
